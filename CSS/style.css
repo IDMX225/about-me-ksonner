@@ -1,0 +1,33 @@
+body {
+    font-family: Montserrat; 
+    background-color: #8FBFBF ;
+    color: #554136;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family:"Sigmar"; 
+    font-size: 3rem; 
+}
+
+header{
+    text-align: center;
+    
+}
+
+#hero, footer{
+    color: #FFAF80;
+    border: .5rem solid #FFAF80;
+    border-radius: 1rem;
+    background-color: #AA988E;
+    text-align: center;
+    padding: 2rem;
+}
+
+#hero img{
+    width: 20rem;
+}
+
+#bio{
+    text-align: center;
+}
+
