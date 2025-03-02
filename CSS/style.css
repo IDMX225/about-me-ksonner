@@ -50,6 +50,7 @@ header{
     margin-right: 200px;
     margin-left: 200px;
     
+    
 }
 #hobbies ul li:nth-child(odd){
     color: #668080;    
@@ -71,5 +72,19 @@ header{
     text-align: center;
 }
 
+#lit{
+    text-align: center;
+    background-color: #FFAF80;
+    border: 5px solid #554136;
+    border-radius: 1rem;
+    margin:20px;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding: 10px;
 
+}
+
+#lit h2{
+    text-decoration: underline;
+}
 
