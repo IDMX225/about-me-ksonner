@@ -11,6 +11,7 @@ h1, h2, h3, h4, h5, h6 {
 
 h2{
     font-size: 30px;
+    text-align: center;
 }
 
 header{
@@ -27,16 +28,21 @@ header{
     padding: 2rem;
 }
 
-#hero img{
+/* hero section*/
+
+ #hero img{
     width: 20rem;
 }
+
+/* bio section*/
 
 #bio{
     text-align: center;
 }
 
+/* hobbies section*/
+
 #hobbies{
-    text-align: center;
     background-color: #FFAF80;
     border: .5rem dotted #AA988E;
     padding: 10px;
@@ -46,10 +52,24 @@ header{
     
 }
 #hobbies ul li:nth-child(odd){
-    color: #668080; 
-    text-align: left;
+    color: #668080;    
 }
-#hobbies ul li:nth-child(even){
-    text-align: left;
+
+/* gallery section*/
+
+#gallery{
+    border: 5px solid #554136;
+
 }
+
+#gallery img{
+    max-width: 100%;
+    
+}
+
+#gallery figure{
+    text-align: center;
+}
+
+
 
