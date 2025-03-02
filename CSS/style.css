@@ -26,40 +26,43 @@ header{
     background-color: #AA988E;
     text-align: center;
     padding: 2rem;
+    margin-top: 3rem;
 }
 
-/* hero section*/
+/* hero section */
 
  #hero img{
     width: 20rem;
 }
 
-/* bio section*/
+/* bio section */
 
 #bio{
     text-align: center;
 }
 
-/* hobbies section*/
+/* hobbies section */
 
 #hobbies{
     background-color: #FFAF80;
     border: .5rem dotted #AA988E;
     padding: 10px;
-    margin: 40px;
-    margin-right: 200px;
-    margin-left: 200px;
-    
+    max-width: 20rem;
+    margin: 0 auto;
     
 }
+
+
+
 #hobbies ul li:nth-child(odd){
     color: #668080;    
 }
 
-/* gallery section*/
+/* gallery section */
 
 #gallery{
     border: 5px solid #554136;
+    margin: 3rem;
 
 }
 
@@ -72,14 +75,15 @@ header{
     text-align: center;
 }
 
+/* Literature */
 #lit{
     text-align: center;
     background-color: #FFAF80;
     border: 5px solid #554136;
     border-radius: 1rem;
     margin:20px;
-    margin-left: 100px;
-    margin-right: 100px;
+    max-width: 40rem;
+    margin: 0 auto;
     padding: 10px;
 
 }
