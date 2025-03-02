@@ -6,7 +6,11 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
     font-family:"Sigmar"; 
-    font-size: 3rem; 
+    font-size: 50px; 
+}
+
+h2{
+    font-size: 30px;
 }
 
 header{
@@ -29,5 +33,23 @@ header{
 
 #bio{
     text-align: center;
+}
+
+#hobbies{
+    text-align: center;
+    background-color: #FFAF80;
+    border: .5rem dotted #AA988E;
+    padding: 10px;
+    margin: 40px;
+    margin-right: 200px;
+    margin-left: 200px;
+    
+}
+#hobbies ul li:nth-child(odd){
+    color: #668080; 
+    text-align: left;
+}
+#hobbies ul li:nth-child(even){
+    text-align: left;
 }
 
