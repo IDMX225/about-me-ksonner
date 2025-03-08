@@ -23,7 +23,7 @@ header{
     color: #FFAF80;
     border: .5rem solid #FFAF80;
     border-radius: 1rem;
-    background-color: #544C47;
+    background-color: #554136;
     text-align: center;
     padding: 2rem;
     margin-top: 3rem;
@@ -77,7 +77,7 @@ header{
 
 /* Literature */
 #lit{
-    text-align: center;
+    text-align: left;
     background-color: #FFAF80;
     border: 5px solid #554136;
     border-radius: 1rem;
@@ -90,5 +90,24 @@ header{
 
 #lit h2{
     text-decoration: underline;
+}
+
+#lit div p{
+    padding: 0.3rem;
+    clear:both;
+    margin: 2px;
+}
+
+/*Dropcaps*/
+
+#lit div p:first-letter{
+   color: #668080;
+   float: left;
+   font-size: 3em;
+   padding: .5em;
+   margin-right: .25em;
+   line-height: .65;
+   border:10px groove #668080
+
 }
 
