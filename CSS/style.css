@@ -41,14 +41,16 @@ header{
     text-align: center;
 }
 
-/* hobbies section */
+/* hobbies section 
+  */
+
 
 #hobbies{
     background-color: #FFAF80;
     border: .5rem dotted #AA988E;
-    padding: 10px;
-    max-width: 20rem;
+    padding: 20px;
     margin: 0 auto;
+    max-width: 20rem;
     
 }
 
@@ -74,6 +76,8 @@ header{
 #gallery figure{
     text-align: center;
 }
+
+
 
 /* Literature */
 #lit{
@@ -110,4 +114,21 @@ header{
    border:10px groove #668080
 
 }
+/* layout for 960px */
+@media screen and (min-width: 60em){
 
+    figure{
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+    }
+
+    figcaption{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 2rem; 
+    }
+
+
+    
+}
