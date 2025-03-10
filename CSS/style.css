@@ -139,7 +139,7 @@ header{
 }
 
 /* large screen size */
-@media screen and (min-width: 100em ){
+@media screen and (min-width: 80em ){
 
     #gallery {
         display: grid;
