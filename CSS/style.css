@@ -150,7 +150,9 @@ header{
         columns: 20rem;
     }
  
-   
+   #myVideo iframe{
+    width: 590px;
+   }
 
 }
 
@@ -176,7 +178,7 @@ header{
 
     #myVideo{
         display: grid;
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 1fr 2fr;
     }
 
     #myVideo p{
@@ -184,6 +186,7 @@ header{
         display: flex;
         justify-content: center;
         align-items: center;
+        text-align: left;
     }
 
     #myVideo h2{
