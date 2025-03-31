@@ -50,10 +50,7 @@ header{
     padding: 20px;
     margin: 0 auto;
     max-width: 20rem;
-    
 }
-
-
 
 #hobbies ul li:nth-child(odd){
     color: #668080;    
@@ -84,6 +81,7 @@ header{
     background-color: #FFAF80;
     border: 5px solid #554136;
     border-radius: 1rem;
+    padding: 10px;
 
 }
 
@@ -109,6 +107,24 @@ header{
    border: 10px groove #668080
 
 }
+
+#myVideo h2{
+    border: .5rem dotted #554136;
+    padding: 20px;
+    margin: 50px auto;
+    max-width: 20rem;
+}
+
+#myVideo{
+    text-align: center;
+    width: 100%;
+   
+}
+
+#myVideo p{
+    font-size: 25px;
+} 
+
 /* layout for 960px */
 @media screen and (min-width: 60em){
 
@@ -133,7 +149,8 @@ header{
         max-width: 100%;
         columns: 20rem;
     }
-
+ 
+   
 
 }
 
@@ -155,5 +172,21 @@ header{
 
     figure{
         display: block;
+    }
+
+    #myVideo{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    #myVideo p{
+        font-size: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #myVideo h2{
+        grid-column: 1/-1;
     }
 }
