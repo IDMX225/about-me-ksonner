@@ -125,6 +125,13 @@ header{
     font-size: 25px;
 } 
 
+
+/* contact form */
+
+#formElements{
+    display:grid;
+}
+
 /* layout for 960px */
 @media screen and (min-width: 60em){
 
