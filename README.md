@@ -31,9 +31,10 @@ In the body section I leanred how to add an image and a nav bar
                 </ul>
             </div>
 ```
+---
+---
 ### Color Scheme
 I mainly used 7 colors 
-$${\color{#8FBFBF}#8FBFBF}$$
 * `#8FBFBF`
 * `#554136`
 * `#FFAF80`
