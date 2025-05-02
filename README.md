@@ -7,7 +7,7 @@ The prupose of this project is to demonstrate the skills leanred through the sem
 
 In the head section of the html code I learned how to add fonts and connect my css files 
 ```html
- <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Sigmar&display=swap" rel="stylesheet">
 
@@ -16,6 +16,21 @@ In the head section of the html code I learned how to add fonts and connect my c
 ```
 
 In the body section I leanred how to add an image and a nav bar 
+
+```html
+            <div class="logo">
+                <img src="img/logo-96X96.svg" alt="blue origami bird">
+                <h1>Web Dev I </h1> 
+            </div>
+            <div class="navbar-links">
+                <ul>
+                    <li><a href="#bio">Bio</a></li>
+                    <li><a href="#gallery">Gallery</a></li>
+                    <li><a href="#lit">Blog</a></li>
+                    <li><a href="#contact">Contact Me</a></li>
+                </ul>
+            </div>
+```
 ### Color Scheme
 I mainly used 7 colors 
 ### Citations 
