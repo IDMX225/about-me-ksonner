@@ -33,6 +33,14 @@ In the body section I leanred how to add an image and a nav bar
 ```
 ### Color Scheme
 I mainly used 7 colors 
+* `#8FBFBF`
+* `#554136`
+* `#FFAF80`
+* `#AA988E`
+* `#668080`
+* `rgb(245, 245, 245)`
+* `rgb(255, 255, 255)`
+
 ### Citations 
 
 ### License 
