@@ -109,16 +109,69 @@
 
         <section>
             <article id="lit">
-                <h2>Blog post</h2>
+                <div class="shadow-dance-container">
+                    <h2 class="shadow-dance-text">CSS Animations</h2>
+                </div>
+                
                 <div>
                    
                     <p>
-                    This is where the blog post will go 
+                        CSS animations is an animation that gradually changes from one style to another. 
+                        This is normally done using JavaScript but can also be done using CSS. The first 
+                        thing to do is specify keyframes. Keyframes are rules the animation will follow 
+                        when changing style. Another important factor to remember is setting an animation 
+                        duration. This tells the animation hold long it will take to change, without this 
+                        set duration the animation will not occur. Another to not about any animation is 
+                        it will go back to the original color or location
                    </p>
-
-
-                    
-
+                    <p>
+                        There are many ways to create an animation, one of the ways is to create a shape 
+                        and move it across the screen. To do this you will need to add coordinates of 
+                        where you want you object to go. You can use “left” and “top” to choose the 
+                        coordinates. For example, you can use “left:0px; top:0px;” as your starting 
+                        point and then for each of the following locations  edit left and top to change 
+                        the position of the object.
+                    </p>
+                    <p>
+                        You can also change the color of the object and there are a few ways to do this 
+                        as well. You can change it from one color to another or have it fade through the 
+                        rainbow. For fading from one color to another you need to use the key words “from” 
+                        and “to” from being your initial color and to being your second color. When fading
+                         through multiple colors you can use percentages. For example, if you want to fade 
+                         through 5 colors each color will have a percent multiple of 25. 0%, 25%, 50%, 75%, 
+                         and 100%. 0% is your initial color. 
+                    </p>
+                    <p>
+                        Other variations of code you can add is an animation delay, by setting the delay 
+                        time; “animation-delay: -2s”. You can also set the number of times your animation 
+                        will run by using “animation-iteration-count”. If you want your animation to run 
+                        infinitely you change the iteration count from a set number to “infinite”, allowing 
+                        your animation to run forever.
+                    </p>
+                    <p>
+                        There is also an “animation-timing-function” which specifies the curve of the 
+                        animation. Linear keeps a constant speed from start to finish. Ease starts slow, 
+                        moves fast, then ends slow. There is also ease-in and ease-out, they are the same 
+                        but opposites. Ease-in starts slow and ends fast, while ease-out starts fast and ends slow. 
+                    </p>
+                    <p>
+                        There is a shorthand for writing animation code making it easier to read and saves space. 
+                        For example: You can write “animation-name: fadeInOut; animation-duration: 2.5s; animation-iteration-count: 2; 
+                        animation-name: moveLeft300px; animation-duration: 5s; animation-iteration-count: 1; animation-name: bounce; 
+                        animation-duration: 1s; animation-iteration-count: 5;” OR you can add all the names, duration and iteration 
+                        counts to one line. It would look like this; animation-name: fadeInOut, moveLeft300px, bounce; animation-duration: 
+                        2.5s, 5s, 1s; animation-iteration-count: 2, 1, 5;” This is also helpful when you have more than one animation style 
+                        but the same duration or iteration count. Its easier to add all the styles to one name line and then have the 
+                        duration and iteration count underneath it.
+                    </p>
+                    <p>
+                        There are many kinds of animations making the possibilities endless. You can create an 
+                        envelope that opens revealing a letter when it to hovered over. You could create a 
+                        secret message to appear when hovered over. You could code different animations for 
+                        buttons, make then shake or glitch or pulse. You could code a button to flash the 
+                        rainbow when you click on it. Adding animation to your website is one of the way to 
+                        add a personal touch but also an interesting thing to look at while a viewer is on your site
+                    </p>
 
                 </div>
             </article>
