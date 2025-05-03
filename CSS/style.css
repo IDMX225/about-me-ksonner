@@ -19,6 +19,7 @@ header{
 }
 
 
+
 #hero, footer{
     color: #FFAF80;
     border: .5rem solid #FFAF80;
@@ -29,6 +30,12 @@ header{
     margin-top: 3rem;
 }
 
+footer a{
+    color: #FFAF80;
+    text-align: center;
+    padding: 2rem;
+    margin-top: 4rem;
+}
 /* hero section */
 
  #hero img{
@@ -39,6 +46,11 @@ header{
 
 #bio{
     text-align: center;
+    background-color: #8FBFBF;
+    padding: 20px;
+    margin: 0 auto;
+    max-width: 40rem;
+    
 }
 
 /* hobbies section */
@@ -49,7 +61,7 @@ header{
     border: .5rem dotted #AA988E;
     padding: 20px;
     margin: 0 auto;
-    max-width: 20rem;
+    max-width: 40rem;
 }
 
 #hobbies ul li:nth-child(odd){
@@ -182,6 +194,16 @@ legend{
 /* layout for 960px */
 @media screen and (min-width: 60em){
 
+    #bio{
+        font-size: 25px;
+        max-width: 50rem;
+    }
+
+    #hobbies{
+        font-size: 25px;
+        max-width: 50rem;
+    }
+    
     figure{
         display: grid;
         grid-template-columns: 2fr 1fr;
@@ -213,6 +235,16 @@ legend{
 /* large screen size */
 @media screen and (min-width: 80em ){
 
+    #bio{
+        font-size: 30px;
+        max-width: 60rem;
+    }
+    
+    #hobbies{
+        font-size: 25px;
+        max-width: 60rem;
+    }
+    
     #gallery {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
