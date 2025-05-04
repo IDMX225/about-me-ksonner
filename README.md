@@ -63,8 +63,8 @@ https://prismic.io/blog/css-animation-examples
 I mainly used 7 colors 
 * `#8FBFBF` `rgb(143, 191, 191)` <span style="display:inline-block;width:20px;height:20px;background-color:#8FBFBF;border:1px solid #000;"></span>
 
-* `#554136` `rgb(85, 65, 54)`![brown](img/brown.png)
-* `#FFAF80` `rgb(255, 175, 128)`
+`#554136` `rgb(85, 65, 54)`![brown](img/brown.png)
+`#FFAF80` `rgb(255, 175, 128)`![peach](img/peach.png)
 * `#AA988E` `rgb(170, 152, 142)`
 * `#668080` `rgb(102, 128, 128)`
 * `#f5f5f5` `rgb(245, 245, 245)`
