@@ -7,7 +7,7 @@
 The prupose of this project is to demonstrate the skills leanred through the semester about HTML and CSS
 
 In the head section of the html code I learned how to add fonts and connect my css files 
-```html
+```ruby
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Sigmar&display=swap" rel="stylesheet">
@@ -16,9 +16,39 @@ In the head section of the html code I learned how to add fonts and connect my c
     <link href="css/nav.css" rel="stylesheet">
 ```
 
-In the body section I leanred how to add an image and a nav bar 
+In the body section I leanred how to add an image and 2 differnt navbars 
 
-```html
+```ruby
+/*For when the screen is mobile*/
+<div id="menuToggle">
+    <input type="checkbox" id="menuCheckbox" />
+        <span></span>
+        <span></span>
+        <span></span>
+            <ul id="menu">
+                <li>
+                    <a href="#bio">
+                        <label for="menuCheckbox" onclick="this.parentNode.click();">Bio</label>
+                    </a>
+                </li>
+                <li>
+                    <a href="#gallery">
+                        <label for="menuCheckbox" onclick="this.parentNode.click();">Gallery</label>
+                    </a>
+                </li>
+                <li>
+                    <a href="#lit">
+                        <label for="menuCheckbox" onclick="this.parentNode.click();">Blog</label>
+                    </a>
+                </li>
+                <li>
+                    <a href="#contact">
+                        <label for="menuCheckbox" onclick="this.parentNode.click();">Contact Me</label>
+                    </a>
+                </li>
+            </ul>
+</div>
+/*for when the sceen is larger than mobile*/
 <div class="logo">
     <img src="img/logo-96X96.svg" alt="blue origami bird">
         <h1>Web Dev I </h1> 
@@ -48,7 +78,6 @@ When it came to the nav bar, I had to chnage the original navbar I had to be a h
 ```
 ---
 ---
----
 ### Blog Topic
 The topic I chose for my blog was about CSS animations. I chose this topic because I there is so much to learn. When doing my resaerch I leanred about the basic techniques involved, but as I dig deeper I found incredible examples of what's possible using html and css. I added some basic examples and some more complex examples to show just a few of the possibilites. It took me some time to figure out how to incorperate these examples into my code while making sure it looked appealing and I have learned so much from this process. 
 
@@ -61,15 +90,17 @@ https://prismic.io/blog/css-animation-examples
 ---
 ### Color Scheme
 I mainly used 6 colors 
-* ![blue](img/light-blue.png)`rgb(143, 191, 191)` 
+* ![blue](img/light_teal.png)`rgb(143, 191, 191)` 
 * ![brown](img/brown.png)`rgb(85, 65, 54)`
 * ![peach](img/peach.png)`rgb(255, 175, 128)`
 * ![gray-brown](img/gray-rbwon.png)`rgb(170, 152, 142)`
 * ![blue-gray](img/blue-gray.png) `rgb(102, 128, 128)`
 * ![peaoff white](img/white.png)`rgb(245, 245, 245)`
-
+---
+--- 
 ### Citations 
 (https://codepen.io/erikterwan/pen/EVzeRP) 
-
+---
+---
 ### License 
 For my webite I would copyright it, this is my work and no one should be able to take it. Especailly my logo. 
