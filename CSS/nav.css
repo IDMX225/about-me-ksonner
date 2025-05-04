@@ -185,8 +185,13 @@ nav p {
 
 .logo{
     display: flex;
-    align-items: left;
+    justify-content: center;
 
+}
+
+.logo img{
+    height: 10vw;
+    width: 10vw;
 }
 
 .navbar-large{
@@ -198,6 +203,7 @@ nav p {
 .navigation-mobile{
     display: none;
 }
+
     
 .navbar-large{
     display: flex;

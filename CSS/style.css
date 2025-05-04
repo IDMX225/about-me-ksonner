@@ -31,8 +31,8 @@ body {
 
 .moving-color-changing-square {
     width: 100px;
-    height: 100px; 
-    background-color: #171A21;
+    height: 50px; 
+    background-color: #4DB6AC;
     position: relative;
     animation-name: square;
     animation-duration: 4s; 
@@ -40,16 +40,16 @@ body {
 }
 
 @keyframes square {
-    0%   {background-color:#171A21; left:0px; top:0px;}
+    0%   {background-color:#4DB6AC; left:0px; top:0px;}
     25%  {background-color:whitesmoke; left:100px; top:0px;}
-    50%  {background-color:#171A21; left:100px; top:100px;}
+    50%  {background-color:#4DB6AC; left:100px; top:100px;}
     75%  {background-color:whitesmoke; left:0px; top:100px;}
-    100% {background-color:#171A21; left:0px; top:0px;}
+    100% {background-color:#4DB6AC; left:0px; top:0px;} 
   }
 
   .color-changing-square{
     width: 100px;
-    height: 100px;
+    height: 50px;
     background-color: red;
     animation-name: colorful;
     animation-duration: 4s;
@@ -59,135 +59,177 @@ body {
   @keyframes colorful {
     0%   {background-color: #ABF3F7;}
     25%  {background-color: #92BCEA;}
-    50%  {background-color: #7A93AC;}
+    50%  {background-color: #4DB6AC;}
     75% {background-color: #617073;}
     100% {background-color: #171A21;}
     
   }
 
-  .secret-message{
-    
-    * {
-        box-sizing: border-box;
-      }
-      
-      body {
-        min-height: 100vh;
-        display: grid;
-        place-items: center;
-        font-family: "SF Pro Text", "SF Pro Icons", "AOS Icons", "Helvetica Neue", Helvetica, Arial, sans-serif, system-ui;
-        background: hsl(0 0% 0%);
-        gap: 2rem;
-      }
-      
-      body::before {
-          --line: hsl(0 0% 95% / 0.25);
-          content: "";
-          height: 100vh;
-          width: 100vw;
-          position: fixed;
-          background:
-              linear-gradient(90deg, var(--line) 1px, transparent 1px 10vmin) 0 -5vmin / 10vmin 10vmin,
-              linear-gradient(var(--line) 1px, transparent 1px 10vmin) 0 -5vmin / 10vmin 10vmin;
-          mask: linear-gradient(-15deg, transparent 30%, white);
-          top: 0;
-          z-index: -1;
-      }
-      
-      section {
-        display: grid;
-        gap: 4rem;
-        align-items: center;
-        justify-content: center;
-      }
-      
-      section p {
-        margin: 0;
-        font-size: 2.25rem;
-        color: hsl(0 0% 40%);
-        text-align: center;
-        background: linear-gradient(hsl(0 0% 80%), hsl(0 0% 50%));
-        color: transparent;
-        background-clip: text;
-      }
-      
-      .code {
-        font-size: 3rem;
-        display: flex;
-        flex-wrap: nowrap;
-        color: hsl(0 0% 100%);
-        border-radius: 1rem;
-        background: hsl(0 0% 6%);
-        justify-content: center;
-        box-shadow: 0 1px hsl(0 0% 100% / 0.25) inset;
-      }
-      
-      .code:hover {
-        cursor: grab;
-      }
-      
-      .digit {
-        display: flex;
-        height: 100%;
-        padding: 5.5rem 1rem;
-      }
-      
-      .digit:focus-visible {
-        outline-color: hsl(0 0% 50% / 0.25);
-        outline-offset: 1rem;
-      }
-      
-      .digit span {
-        scale: calc(var(--active, 0) + 0.5);
-        filter: blur(calc((1 - var(--active, 0)) * 1rem));
-        transition: scale calc(((1 - var(--active, 0)) + 0.2) * 1s), filter calc(((1 - var(--active, 0)) + 0.2) * 1s);
-      }
-      
-      ul {
-        padding: 0;
-        margin: 0;
-      }
-      
-      .digit:first-of-type {
-        padding-left: 2rem;
-      }
-      .digit:last-of-type {
-        padding-right: 2rem;
-      }
-      
-      :root {
-        --lerp-0: 1; /* === sin(90deg) */
-        --lerp-1: calc(sin(50deg));
-        --lerp-2: calc(sin(45deg));
-        --lerp-3: calc(sin(35deg));
-        --lerp-4: calc(sin(25deg));
-        --lerp-5: calc(sin(15deg));
-      }
-      
-      .digit:is(:hover, :focus-visible) {
-        --active: var(--lerp-0);
-      }
-      .digit:is(:hover, :focus-visible) + .digit,
-      .digit:has(+ .digit:is(:hover, :focus-visible)) {
-        --active: var(--lerp-1);
-      }
-      .digit:is(:hover, :focus-visible) + .digit + .digit,
-      .digit:has(+ .digit + .digit:is(:hover, :focus-visible)) {
-        --active: var(--lerp-2);
-      }
-      .digit:is(:hover, :focus-visible) + .digit + .digit + .digit,
-      .digit:has(+ .digit + .digit + .digit:is(:hover, :focus-visible)) {
-        --active: var(--lerp-3);
-      }
-      .digit:is(:hover, :focus-visible) + .digit + .digit + .digit + .digit,
-      .digit:has(+ .digit + .digit + .digit + .digit:is(:hover, :focus-visible)) {
-        --active: var(--lerp-4);
-      }
-      .digit:is(:hover, :focus-visible) + .digit + .digit + .digit + .digit + .digit,
-      .digit:has(+ .digit + .digit + .digit + .digit + .digit:is(:hover, :focus-visible)) {
-        --active: var(--lerp-5);
-      }
+  .ease-in-out{
+    width: 100px;
+    height: 50px;
+    background-color: #4DB6AC;
+    font-weight: bold;
+    position: relative;
+    animation: mymove 5s;
+    animation-direction: alternate; 
+    animation-iteration-count: 3;
   }
+
+  #div5 {animation-timing-function: ease-in;}
+
+  @keyframes mymove {
+    from {left: 0px;}
+    to {left: 300px;}
+  }
+
+/* truck animation*/
+  body .loop-wrapper{ 
+    background: #009688;
+    overflow: hidden;
+    font-family: 'Open Sans', sans-serif;
+  }
+  .loop-wrapper {
+    margin: 0 auto;
+    position: relative;
+    display: block;
+    max-width: 100%;
+    height: 250px;
+    overflow: hidden;
+    border-bottom: 3px solid #fff;
+    color: #fff;
+  }
+  .mountain {
+    position: absolute;
+    right: -900px;
+    bottom: -20px;
+    width: 2px;
+    height: 2px;
+    box-shadow: 
+      0 0 0 50px #4DB6AC,
+      60px 50px 0 70px #4DB6AC,
+      90px 90px 0 50px #4DB6AC,
+      250px 250px 0 50px #4DB6AC,
+      290px 320px 0 50px #4DB6AC,
+      320px 400px 0 50px #4DB6AC
+      ;
+    transform: rotate(130deg);
+    animation: mtn 20s linear infinite;
+  }
+  .hill {
+    position: absolute;
+    right: -900px;
+    bottom: -50px;
+    width: 400px;
+    border-radius: 50%;
+    height: 20px;
+    box-shadow: 
+      0 0 0 50px #4DB6AC,
+      -20px 0 0 20px #4DB6AC,
+      -90px 0 0 50px #4DB6AC,
+      250px 0 0 50px #4DB6AC,
+      290px 0 0 50px #4DB6AC,
+      620px 0 0 50px #4DB6AC;
+    animation: hill 4s 2s linear infinite;
+  }
+  .tree, .tree:nth-child(2), .tree:nth-child(3) {
+    position: absolute;
+    height: 100px; 
+    width: 35px;
+    bottom: 0;
+    background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/130015/tree.svg) no-repeat;
+  }
+  .rock {
+    margin-top: -17%;
+    height: 2%; 
+    width: 2%;
+    bottom: -2px;
+    border-radius: 20px;
+    position: absolute;
+    background: #ddd;
+  }
+  .truck, .wheels {
+    transition: all ease;
+    width: 85px;
+    margin-right: -60px;
+    bottom: 0px;
+    right: 50%;
+    position: absolute;
+    background: #eee;
+  }
+  .truck {
+    background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/130015/truck.svg) no-repeat;
+    background-size: contain;
+    height: 60px;
+  }
+  .truck:before {
+    content: " ";
+    position: absolute;
+    width: 25px;
+    box-shadow:
+      -30px 28px 0 1.5px #fff,
+       -35px 18px 0 1.5px #fff;
+  }
+  .wheels {
+    background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/130015/wheels.svg) no-repeat;
+    height: 15px;
+    margin-bottom: 0;
+  }
+  
+  .tree  { animation: tree 3s 0.000s linear infinite; }
+  .tree:nth-child(2)  { animation: tree2 2s 0.150s linear infinite; }
+  .tree:nth-child(3)  { animation: tree3 8s 0.050s linear infinite; }
+  .rock  { animation: rock 4s   -0.530s linear infinite; }
+  .truck  { animation: truck 4s   0.080s ease infinite; }
+  .wheels  { animation: truck 4s   0.001s ease infinite; }
+  .truck:before { animation: wind 1.5s   0.000s ease infinite; }
+  
+  
+  @keyframes tree {
+    0%   { transform: translate(1350px); }
+    50% {}
+    100% { transform: translate(-50px); }
+  }
+  @keyframes tree2 {
+    0%   { transform: translate(650px); }
+    50% {}
+    100% { transform: translate(-50px); }
+  }
+  @keyframes tree3 {
+    0%   { transform: translate(2750px); }
+    50% {}
+    100% { transform: translate(-50px); }
+  }
+  
+  @keyframes rock {
+    0%   { right: -200px; }
+    100% { right: 2000px; }
+  }
+  @keyframes truck {
+    0%   { }
+    6%   { transform: translateY(0px); }
+    7%   { transform: translateY(-6px); }
+    9%   { transform: translateY(0px); }
+    10%   { transform: translateY(-1px); }
+    11%   { transform: translateY(0px); }
+    100%   { }
+  }
+  @keyframes wind {
+    0%   {  }
+    50%   { transform: translateY(3px) }
+    100%   { }
+  }
+  @keyframes mtn {
+    100% {
+      transform: translateX(-2000px) rotate(130deg);
+    }
+  }
+  @keyframes hill {
+    100% {
+      transform: translateX(-2000px);
+    }
+  }
+  
 
 
 h1, h2, h3, h4, h5, h6 {
@@ -409,13 +451,11 @@ legend{
         columns: 20rem;
     }
 
-    #lit h2{
+    #lit .shadow-dance-text{
         grid-column: 1/-1;
     }
 
-    #lit .secret-message{
-        columns: none;
-    }
+    
  
    #myVideo iframe{
     width: 590px;
