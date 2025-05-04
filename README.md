@@ -60,15 +60,13 @@ https://prismic.io/blog/css-animation-examples
 ---
 ---
 ### Color Scheme
-I mainly used 7 colors 
-* ![blue](img/blue-gray.png)`rgb(143, 191, 191)` 
-
-* `#554136` `rgb(85, 65, 54)`![brown](img/brown.png)
-* `#FFAF80` `rgb(255, 175, 128)`![peach](img/peach.png)
-* `#AA988E` `rgb(170, 152, 142)`
-* `#668080` `rgb(102, 128, 128)`
-* `#f5f5f5` `rgb(245, 245, 245)`
-* `#FFFFFF` `rgb(255, 255, 255)`
+I mainly used 6 colors 
+* ![blue](img/light-blue.png)`rgb(143, 191, 191)` 
+* ![brown](img/brown.png)`rgb(85, 65, 54)`
+* ![peach](img/peach.png)`rgb(255, 175, 128)`
+* ![gray-brown](img/gray-rbwon.png)`rgb(170, 152, 142)`
+* ![blue-gray](img/blue-gray.png) `rgb(102, 128, 128)`
+* ![peaoff white](img/white.png)`rgb(245, 245, 245)`
 
 ### Citations 
 (https://codepen.io/erikterwan/pen/EVzeRP) 
