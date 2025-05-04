@@ -86,7 +86,7 @@ nav p {
   margin-bottom: 5px;
   position: relative;
   
-  background: #cdcdcd;
+  background: #554136;
   border-radius: 3px;
   
   z-index: 1;
@@ -151,7 +151,7 @@ nav p {
   padding-top: 125px;
   box-sizing: border-box;
   overflow-y: auto;
-  background: #ededed;
+  background: whitesmoke;
   list-style-type: none;
   -webkit-font-smoothing: antialiased;
   /* to stop flickering of text in safari */
