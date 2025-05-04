@@ -1,7 +1,7 @@
 # README
 
 ## Kathryn Sonner
-![my logo](img/ks-corben.svg)
+![my logo](img/ks-corben.svg) {height: 50px;}
 ### [![Netlify Status](https://api.netlify.com/api/v1/badges/4992c938-5c2b-42ba-b5a2-f673f24e1ae6/deploy-status)](https://app.netlify.com/sites/about-me-ksonner/deploys)
 ### Description
 The prupose of this project is to demonstrate the skills leanred through the semester about HTML and CSS
