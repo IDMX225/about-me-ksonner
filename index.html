@@ -17,10 +17,44 @@
 
 <body>
     <header>
-        <nav class="navbar">
+        
+        <nav class="navigation-mobile">
             <div class="logo">
-                <img src="img/logo-96X96.svg" alt="blue origami bird">
-                <h1>Web Dev I </h1> 
+                <img src="img/ks-corben.svg" alt="K S logo">
+            </div>
+            <div id="menuToggle">
+                <input type="checkbox" id="menuCheckbox" />
+                <span></span>
+                <span></span>
+                <span></span>
+                <ul id="menu">
+                    <li>
+                        <a href="#bio">
+                          <label for="menuCheckbox" onclick="this.parentNode.click();">Bio</label>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#gallery">
+                          <label for="menuCheckbox" onclick="this.parentNode.click();">Gallery</label>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#lit">
+                          <label for="menuCheckbox" onclick="this.parentNode.click();">Blog</label>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#contact">
+                          <label for="menuCheckbox" onclick="this.parentNode.click();">Contact Me</label>
+                        </a>
+                      </li>
+                </ul>
+            </div>
+        </nav>
+       
+        <nav class="navbar-large">
+            <div class="logo">
+                <img src="img/ks-corben.svg" alt="K S logo">
             </div>
             <div class="navbar-links">
                 <ul>
@@ -30,14 +64,15 @@
                     <li><a href="#contact">Contact Me</a></li>
                 </ul>
             </div>
-        </nav>
+            </nav>
     </header>
 
 
     <main>
         <section id="hero"> 
 
-            <img src="img/avataaars.png" alt="female avatar">
+            
+            <img src="img/me_wedding.jpeg" alt="Katie in a black dress">
 
             <div>
                 <p>Kathryn Sonner</p>
@@ -48,22 +83,11 @@
         <section id="bio">
             <div>
                 <p>
-                    I want to be...
-                </p>
-                <p>
-                    a full stack coder
-                </p>
-                <p>
-                    I study best with...
-                </p>
-                <p>
-                    noise canceling headphones and study music
-                </p>
-                <p>
-                    In my free time I like to...
-                </p>
-                <p>
-                    Try new restaurants
+                    I am currently in my 4th year of college. I started at Rutgers 
+                    and changed my major from nursing to engineering and now my final
+                    major is computer science. I will be graduating from RVCC in May 
+                    and transfering to TCNJ to finsh my bachelors degree. After I finish 
+                    my degree I hope to get a job as a full stack web developer.
                 </p>
             </div>
         </section>
@@ -73,13 +97,21 @@
             <h2>Hobbies:</h2>
 
             <ul>
-                <li>Listen to music</li>
-                <li>Learn new coding languages</li>
-                <li>Watch movies</li>
-                <li>Hang with friends</li>
-                <li>Watch Formula 1 </li>
-                <li>Read</li>
-                <li>Play with my dog</li>
+                <li>I listen to music every day. Whether it's in the car driving, while I'm doing homework or even when I am cleaning my room.
+                    I like all differnt genres: Pop, Punk rock, Indy, Classic rock, even movie soundtracks. 
+                </li>
+                <li>In my free time I enjoy learning new coding languages. As of right now I have taught myself 2 languages, python and C++. 
+                    I enjoy the challenge. 
+                </li>
+                <li>I watch a lot of movies. I prefer to watch action, comedy or romcom. I don't like horror movies but I do like 
+                    psychological thrillers.
+                </li>
+                <li>I watch all of the Formula 1 races. I started watching the sport a few years ago and I fell inlove with it. 
+                    My favorite teams are McLaren and Willams. 
+                </li>
+                <li>I love playing with my dog and really just spending time with her. My family resuced her 6 years ago when she was 9 months old.
+                    She is a big couch potato, so she loves to cuddle while I am doing homework, she likes to sit on my laptop.
+                </li>
             </ul>
 
         </section>
@@ -111,71 +143,85 @@
 
         <section>
             <article id="lit">
-                <h2>Office Talk</h2>
+                <div class="shadow-dance-container">
+                    <h2 class="shadow-dance-text">CSS Animations</h2>
+                </div>
+                
                 <div>
                    
                     <p>
-                    Upstream selling my grasp on reality right now is tenuous, or quick win, 
-                    teams were able to drive adoption and awareness, nor five-year strategic 
-                    plan, so bleeding edge. Get buy-in. Let's not solutionize this right now 
-                    parking lot it cloud native container based. A tentative event rundown is 
-                    attached for your reference, including other happenings on the day you are
-                    most welcome to join us beforehand for a light lunch we would also like to
-                    invite you to other activities on the day, including the interim and closing
-                    panel discussions on the intersection of businesses and social innovation, 
-                    and on building a stronger social innovation eco-system respectively hire 
-                    the best you better eat a reality sandwich before you walk back in that 
-                    boardroom, so take five, punch the tree, and come back in here with a clear 
-                    head. Golden goose where do we stand on the latest client ask, nor the 
-                    closest elephant is the most dangerous a better understanding of usage can 
-                    aid in prioritizing future efforts, nor we need more paper, for synergize 
-                    productive mindfulness. 
+                        CSS animations is an animation that gradually changes from one style to another. 
+                        This is normally done using JavaScript but can also be done using CSS. The first 
+                        thing to do is specify keyframes. Keyframes are rules the animation will follow 
+                        when changing styles. Another important factor to remember is setting an animation 
+                        duration. This tells the animation hold long it will take to change, without this 
+                        set duration the animation will not occur. Another thing about any animation is 
+                        it will go back to the original color or location, unless otherwise specified.
                    </p>
-
-                    <p>Tiger team what's our go to market strategy? circle 
-                    back around, and note for the previous submit: the devil should be on the 
-                    left shoulder imagineer. Who's responsible for the ask for this request? 
-                    parallel path commitment to the cause , but win-win optimize the fireball 
-                    i also believe it's important for every member to be involved and invested 
-                    in our company and this is one way to do so, and bleeding edge. Highlights 
-                    this is not the hill i want to die on manage expectations put your feelers 
-                    out, and scope creep. The right info at the right time to the right people 
-                    put your feelers out, or can you run this by clearance? hot johnny coming 
-                    through in this space. Win-win. We need a recap by eod, cob or whatever 
-                    comes first optics, and out of the loop, but scope creep, nor highlights , 
-                    yet translating our vision of having a market leading platfrom. Goalposts. 
-                    Cc me on that. 
+                    <p>
+                        There are many ways to create an animation, one of the ways is to create a shape 
+                        and move it across the screen. To do this you will need to add coordinates of 
+                        where you want you object to go. You can use “left”, "rigth",“top”, and bottom 
+                        to choose the coordinates. For example, you can use “left:0px; top:0px;” as your starting 
+                        point and then for each of the following locations edit to change 
+                        the position of the object.
+                    </p>
+                    <div class="moving-color-changing-square"></div>
+                    <p>
+                        You can also change the color of the object and there are a few ways to do this 
+                        as well. You can change it from one color to another or have it fade through the 
+                        rainbow. For fading from one color to another you need to use the key words “from” 
+                        and “to”; "from" being your initial color and "to" being your second color. When fading
+                         through multiple colors you can use percentages. For example, if you want to fade 
+                         through 5 colors each color will have a percent multiple of 25. 0%, 25%, 50%, 75%, 
+                         and 100%. 0% is your initial color and 100% being your final. 
+                    </p>
+                    <div class="color-changing-square"></div>
+                    <p>
+                        Other variations of code you can add is an animation delay, by setting the delay 
+                        time; “animation-delay: -2s”, which delays the animation by 2 seconds. 
+                        You can also set the number of times your animation 
+                        will run by using “animation-iteration-count”. If you want your animation to run 
+                        infinitely you change the iteration count from a set number to “infinite”, allowing 
+                        your animation to run forever.
+                    </p>
+                    <p>
+                        There is also an “animation-timing-function” which specifies the curve of the 
+                        animation. Linear keeps a constant speed from start to finish. Ease starts slow, 
+                        moves fast, then ends slow. There is also ease-in and ease-out, they are the same 
+                        but opposites. Ease-in starts slow and ends fast, while ease-out starts fast and ends slow. 
+                    </p>
+                    <div class="ease-in-out"></div>
+                    <p>
+                        There is a shorthand for writing animation code making it easier to read and saves space. 
+                        For example: You can write “animation-name: fadeInOut; animation-duration: 2.5s; animation-iteration-count: 2; 
+                        animation-name: moveLeft300px; animation-duration: 5s; animation-iteration-count: 1; animation-name: bounce; 
+                        animation-duration: 1s; animation-iteration-count: 5;” OR you can add all the names, duration and iteration 
+                        counts to one line. It would look like this; animation-name: fadeInOut, moveLeft300px, bounce; animation-duration: 
+                        2.5s, 5s, 1s; animation-iteration-count: 2, 1, 5;” This is also helpful when you have more than one animation style 
+                        but the same duration or iteration count. Its easier to add all the styles to one name line and then have the 
+                        duration and iteration count underneath it.
+                    </p>
+                    <p>
+                        There are many kinds of animations making the possibilities endless. You can create an 
+                        envelope that opens revealing a letter when it is hovered over. You could create a 
+                        secret message to appear when hovered over. You could code different animations for 
+                        buttons, make then shake, glitch or pulse. You could code a button to flash the 
+                        rainbow when you click on it. Adding animation to your website is one of the way to 
+                        add a personal touch but also an interesting thing for a viewer to look at on your site.
                     </p>
 
-                    <p>Action item cannibalize, but you gotta smoke test your 
-                    hypothesis, yet creativity requires you to murder your children, nor best 
-                    practices, nor nail jelly to the hothouse wall, yet re-inventing the wheel. 
-                    Face time poop, yet reach out deploy. Pulling teeth. Dunder mifflin knowledge 
-                    process outsourcing let me know if you need me to crack any skulls, but old boys
-                    club, and root-and-branch review, or they have downloaded gmail and seems 
-                    to be working for now. Let's unpack that later ultimate measure of success 
-                    big boy pants, or get in the driver's seat, and zeitgeist, it's not hard guys, 
-                    nor quick sync. High turnaround rate. 
-                    </p>
-
-                   <p>
-                    Let's not solutionize this right now parking lot it 
-                    re-inventing the wheel, and proceduralize, and granularity, 
-                    but let's schedule a standup during the sprint to review our kpis hard stop, 
-                    so diversify kpis. Pass the mayo, appeal to the client, sue the vice president 
-                    strategic high-level 30,000 ft view high turnaround rate prairie dogging, 
-                    who's responsible for the ask for this request? performance review best 
-                    practices. Up the flagpole bazooka that run it past the boss jump right 
-                    in and banzai attack will they won't they its all greek to me unless 
-                    they bother until the end of time maybe vis a vis too many cooks over 
-                    the line hire the best timeframe open door policy. Value prop disband 
-                    the squad but rehydrate as needed great plan! let me diarize this, and 
-                    we can synchronise ourselves at a later timepoint, nor problem territories, 
-                    but get six alpha pups in here for a focus group. Can we align on lunch 
-                    orders bench mark finance. Game plan marketing computer development html 
-                    roi feedback team website, yet on your plate, but can you put it on my calendar?.
-                    </p>
-
+                    <div class="loop-wrapper">
+                        <div class="mountain"></div>
+                        <div class="hill"></div>
+                        <div class="tree"></div>
+                        <div class="tree"></div>
+                        <div class="tree"></div>
+                        <div class="rock"></div>
+                        <div class="truck"></div>
+                        <div class="wheels"></div>
+                    </div> 
+                   
 
                 </div>
             </article>
@@ -251,6 +297,9 @@
     </main>
     <footer>
         ©2025 - Kathryn Sonner
+        <div> 
+            <a href="https://github.com/IDMX225/about-me-ksonner.git ">GitHub Repo</a>
+         </div>
     </footer>
     
 </body>
