@@ -1,6 +1,7 @@
 # README
 
 ## Kathryn Sonner
+![my logo](img/ks-corben.svg)
 ### [![Netlify Status](https://api.netlify.com/api/v1/badges/4992c938-5c2b-42ba-b5a2-f673f24e1ae6/deploy-status)](https://app.netlify.com/sites/about-me-ksonner/deploys)
 ### Description
 The prupose of this project is to demonstrate the skills leanred through the semester about HTML and CSS
@@ -18,30 +19,28 @@ In the head section of the html code I learned how to add fonts and connect my c
 In the body section I leanred how to add an image and a nav bar 
 
 ```html
-            <div class="logo">
-                <img src="img/logo-96X96.svg" alt="blue origami bird">
-                <h1>Web Dev I </h1> 
-            </div>
-            <div class="navbar-links">
-                <ul>
-                    <li><a href="#bio">Bio</a></li>
-                    <li><a href="#gallery">Gallery</a></li>
-                    <li><a href="#lit">Blog</a></li>
-                    <li><a href="#contact">Contact Me</a></li>
-                </ul>
-            </div>
+<div class="logo">
+    <img src="img/logo-96X96.svg" alt="blue origami bird">
+        <h1>Web Dev I </h1> 
+        </div>
+        <div class="navbar-links">
+            <ul>
+                <li><a href="#bio">Bio</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#lit">Blog</a></li>
+                <li><a href="#contact">Contact Me</a></li>
+            </ul>
+        </div>
 ```
-When it came to the nav bar, I had to chnage the original navbar I had to be a hamburger when in the mobile state and then the original vegitarian navbar in larger states. In order to do this I had to add the html and css for both navbars then I had to go into the css file specifically for my navbars and within the media querys specify ```html display:none;``` for each nav bar. 
+When it came to the nav bar, I had to chnage the original navbar I had to be a hamburger when in the mobile state and then the original vegitarian navbar in larger states. In order to do this I had to add the html and css for both navbars then I had to go into the css file specifically for my navbars and within the media querys specify ```display:none;``` for each nav bar. 
 
-```html 
+```html
 @media screen and (min-width: 60rem){
     .navigation-mobile{
         display: none;
     }
 }
 ```
-    
-
 ---
 ---
 ---
