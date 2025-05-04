@@ -31,6 +31,24 @@ In the body section I leanred how to add an image and a nav bar
                 </ul>
             </div>
 ```
+When it came to the nav bar, I had to chnage the original navbar I had to be a hamburger when in the mobile state and then the original vegitarian navbar in larger states. In order to do this I had to add the html and css for both navbars then I had to go into the css file specifically for my navbars and within the media querys specify ```html display:none;``` for each nav bar. 
+
+```html 
+@media screen and (min-width: 60rem){
+    .navigation-mobile{
+        display: none;
+    }
+}
+```
+    
+
+---
+---
+---
+### Blog Topic
+The topic I chose for my blog was about CSS animations. I chose this topic because
+I there is so much to learn. When doing my resaerch I leanred about the basic 
+techniques involved, but as I dig deeper I found incredible examples of what's possible using html and css. I added some basic examples and some more complex examples to show just a few of the possibilites. It took me some time to figure out how to incorperate these examples into my code while making sure it looked appealing and I have learned so much from this process. 
 ---
 ---
 ### Color Scheme
@@ -44,5 +62,6 @@ I mainly used 7 colors
 * `#FFFFFF` `rgb(255, 255, 255)`
 
 ### Citations 
+(https://codepen.io/erikterwan/pen/EVzeRP) 
 
 ### License 

@@ -17,7 +17,38 @@
 
 <body>
     <header>
-        <nav class="navbar">
+        <nav class="navigation-mobile">
+            <div id="menuToggle">
+                <input type="checkbox" id="menuCheckbox" />
+                <span></span>
+                <span></span>
+                <span></span>
+                <ul id="menu">
+                    <li>
+                        <a href="#bio">
+                          <label for="menuCheckbox" onclick="this.parentNode.click();">Bio</label>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#gallery">
+                          <label for="menuCheckbox" onclick="this.parentNode.click();">Gallery</label>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#lit">
+                          <label for="menuCheckbox" onclick="this.parentNode.click();">Blog</label>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#contact">
+                          <label for="menuCheckbox" onclick="this.parentNode.click();">Contact Me</label>
+                        </a>
+                      </li>
+                </ul>
+            </div>
+        </nav>
+       
+        <nav class="navbar-large">
             <div class="logo">
                 <img src="img/ks-corben.svg" alt="K S logo">
                 <h1>Web Dev I </h1> 
@@ -30,7 +61,7 @@
                     <li><a href="#contact">Contact Me</a></li>
                 </ul>
             </div>
-        </nav>
+            </nav>
     </header>
 
 
@@ -124,6 +155,9 @@
                         set duration the animation will not occur. Another to not about any animation is 
                         it will go back to the original color or location
                    </p>
+                   
+                    
+                  
                     <p>
                         There are many ways to create an animation, one of the ways is to create a shape 
                         and move it across the screen. To do this you will need to add coordinates of 
@@ -132,6 +166,7 @@
                         point and then for each of the following locations  edit left and top to change 
                         the position of the object.
                     </p>
+                    <div class="moving-color-changing-square"></div>
                     <p>
                         You can also change the color of the object and there are a few ways to do this 
                         as well. You can change it from one color to another or have it fade through the 
@@ -141,6 +176,7 @@
                          through 5 colors each color will have a percent multiple of 25. 0%, 25%, 50%, 75%, 
                          and 100%. 0% is your initial color. 
                     </p>
+                    <div class="color-changing-square"></div>
                     <p>
                         Other variations of code you can add is an animation delay, by setting the delay 
                         time; “animation-delay: -2s”. You can also set the number of times your animation 
@@ -172,6 +208,20 @@
                         rainbow when you click on it. Adding animation to your website is one of the way to 
                         add a personal touch but also an interesting thing to look at while a viewer is on your site
                     </p>
+                    <div class="secret-message">
+                        <h3>Glide To Reveal Secret Code</h3>
+                        <ul class="code">
+                            <li tabindex="0" class="digit">
+                                <span>Thanks</span>
+                            </li>
+                            <li tabindex="0" class="digit">
+                                <span>for</span>
+                            </li>
+                                <li tabindex="0" class="digit">
+                                <span>raeding</span>
+                            </li>
+                        </ul>
+                    </div>
 
                 </div>
             </article>
